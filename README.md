@@ -1,29 +1,28 @@
-# Lame
-Laravel + Homestead の環境を整える
+# Lastead
+Laravel と Homestead の環境を簡単に整えます。
 
-## Version 1.1.0
-### Adaptコマンドを作成
-Adaptコマンドは既存のLaravelプロジェクトに対してHomesteadを適応することができます。
+> 古いバージョンに Lame が存在します。
+> これは、他のソフトウェアと名前が競合するため、Lasteadという名前になりました。
+> https://github.com/kra8/Lame.git
 
-ex.
-```
-git clone <repository_path>
-lame adapt <repository_name>
-```
+## Commands
+* `lastead new <project_name>`  
+project_nameという新規Laravelプロジェクトを作成する。
 
-## Usage
-* `lame new <project_name>`  
-project_nameという新規プロジェクトを作成する。
-
-* `lame adapt <project_name>`  
-既存のLaravelプロジェクトに対してHomesteadを適応する。
+* `lastead adapt <project_name>`  
+既存のLaravelプロジェクトに対してHomesteadを適応します。
 
 ## Install
 ```
-composer global require "kra8/lame"
+composer global require "kra8/lastead"
 ```
 
 インストールしたら、`$HOME/.composer/vendor/bin`にパスを通してください。
+
+## Uninstall
+```
+composer global remove "kra8/lastead"
+```
 
 ## Require
 LaravelとHomesteadを動かすには、以下のソフトウェアをインストールしておく必要があります。
@@ -33,4 +32,4 @@ LaravelとHomesteadを動かすには、以下のソフトウェアをインス�
 * Vagrant
 
 ## License
-MIT
+[MIT licence](https://github.com/kra8/Lastead/blob/master/LICENSE)

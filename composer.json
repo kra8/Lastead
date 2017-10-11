@@ -1,10 +1,10 @@
 {
-    "name": "kra8/lame",
+    "name": "kra8/lastead",
     "version": "v1.1.1",
     "description": "Set up the Laravel and Homestead",
     "type": "script",
     "license": "MIT",
-    "keywords": ["laravel", "lame", "homestead"],
+    "keywords": ["laravel", "homestead", "lastead"],
     "authors": [
         {
             "name": "kra8",
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lame\\" : "src/"
+            "Lastead\\" : "src/"
         }
     },
     "require": {
@@ -22,6 +22,6 @@
         "symfony/console": "^3.3"
     },
     "bin": [
-        "lame"
+        "lastead"
     ]
 }

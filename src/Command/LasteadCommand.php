@@ -1,10 +1,10 @@
 <?php
 
-namespace Lame\Command;
+namespace Lastead\Command;
 
 use Symfony\Component\Console\Command\Command;
 
-class LameCommand extends Command
+class LasteadCommand extends Command
 {
     protected $signature;
 

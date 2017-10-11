@@ -1,14 +1,14 @@
 <?php
 
-namespace Lame\Command;
+namespace Lastead\Command;
 
-use Lame\Command\LameCommand;
+use Lastead\Command\LasteadCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class NewCommand extends LameCommand
+class NewCommand extends LasteadCommand
 {
     protected $signature = 'new';
 

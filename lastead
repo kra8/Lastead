@@ -10,5 +10,5 @@ if (file_exists(__DIR__.'/../../autoload.php')) {
 
 use Symfony\Component\Console\Application;
 
-$lame = new Lame\Kernel();
-$lame->run();
+$app = new Lastead\Kernel();
+$app->run();

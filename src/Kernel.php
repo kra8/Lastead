@@ -15,7 +15,7 @@ class Kernel
 
     public function __construct()
     {
-        $this->app = new Application('Laravel and Homestead set up script.', 'v1.1.1');
+        $this->app = new Application('Laravel and Homestead set up script.', 'v2.0.0');
         foreach ($this->commands as $commandClassName) {
             $command = new $commandClassName();
             $this->app->add($command);

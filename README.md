@@ -1,9 +1,5 @@
 # Lastead
-Laravel と Homestead の環境を簡単に整えます。
-
-> 古いバージョンに Lame が存在します。
-> これは、他のソフトウェアと名前が競合するため、Lasteadという名前になりました。
-> https://github.com/kra8/Lame.git
+[Laravel](https://laravel.com/) と [Homestead](https://github.com/laravel/homestead) の環境を簡単に整えます。
 
 ## Commands
 * `lastead new <project_name>`  
@@ -27,9 +23,9 @@ composer global remove "kra8/lastead"
 ## Require
 LaravelとHomesteadを動かすには、以下のソフトウェアをインストールしておく必要があります。
 
-* PHP 7.1.3以上
-* VirtualBox
-* Vagrant
+* PHP 7.1.3 以上
+* VirtualBox 5.2.0 以上
+* Vagrant 2.0.1 以上
 
 ## License
 [MIT licence](https://github.com/kra8/Lastead/blob/master/LICENSE)

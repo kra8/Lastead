@@ -1,3 +1,5 @@
+既に保守してません、dockerおすすめ。
+
 # Lastead
 [Laravel](https://laravel.com/) と [Homestead](https://github.com/laravel/homestead) の環境を簡単に整えます。
 
